@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+int x,mul=1;
+cout<<"Enter the number : ";
+cin>> x;
+do
+{mul*=x;
+x--;
+} while(x>0);
+cout<<" the result is : "<<mul;
+return 0;
+}
